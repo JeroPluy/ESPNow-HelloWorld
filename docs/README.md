@@ -63,7 +63,7 @@ Estimated time: ~ 20 minutes
  49
  50      #endif
 ```
- 10. Comment out like this: 
+ 10. Comment out the target mode as follows: 
  ```
 25    // unwanted modes should be commented out
 26    #define DEBUG
@@ -75,7 +75,7 @@ Estimated time: ~ 20 minutes
  
  12. Connect the ESP8266 that will be the targets.
  
- 13. Comment out like this: 
+ 13. Comment out the server mode as follows: 
  ```
 25    // unwanted modes should be commented out
 26    #define DEBUG
@@ -86,3 +86,9 @@ Estimated time: ~ 20 minutes
  14. Upload the program to the ESP. (`Ctrl + U`)
  
  15. Software installation completed.
+ 
+ ___
+ 
+ ###Projects based on this
+ 
+ 
