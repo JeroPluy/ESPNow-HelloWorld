@@ -48,13 +48,9 @@ Estimated time: ~ 20 minutes
    ===========================================================
    ```
    
-  8. Open the [LGGameserver](../Game/LGGameserver/LGGameserver.ino) program with the Arduino IDE.
-  
-  9. Upload the program to the ESP. (`Ctrl + U`)
-  
- 10. Open the [LGTarget](../Game/LGTarget/LGTarget.ino) program with the Arduino IDE.
+  8. Open the [ESPNow-HelloWorld](../ESPNow-HelloWorld/ESPNow-HelloWorld.ion) program with the Arduino IDE.
  
- 11. Change the server Mac addresses for the targets in the code (**_don't_** just copy the entire mac.txt file) `(Code row : 67 - 68)`
+  9. Change the server Mac addresses for the targets in the code (**_don't_** just copy the entire mac.txt file) `(Code line : 44 - 45)`
  ```
   
        // server esp mac addresses for the targets
@@ -68,11 +64,26 @@ Estimated time: ~ 20 minutes
 
        #endif
 ```
-    
- 12. Connect an ESP8266 that will be one of the targets.
+ 10. Comment out like this: 
+ ```
+25    // unwanted modes should be commented out
+26    #define DEBUG
+27    //#define TARGET
+28    #define SERVER
+ ```
+
+ 11. Upload the code to the server ESP. (`Ctrl + U`)
  
- 13. Upload the program to the ESP. (`Ctrl + U`)
+ 12. Connect the ESP8266 that will be the targets.
  
- 14. Repeat the steps <12> and <13> for every target.
+ 13. Comment out like this: 
+ ```
+25    // unwanted modes should be commented out
+26    #define DEBUG
+27    #define TARGET
+28    //#define SERVER
+ ```
+ 
+ 14. Upload the program to the ESP. (`Ctrl + U`)
  
  15. Software installation completed.
