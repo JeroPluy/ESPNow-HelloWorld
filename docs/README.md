@@ -50,19 +50,18 @@ Estimated time: ~ 20 minutes
    
   8. Open the [ESPNow-HelloWorld](../ESPNow-HelloWorld/ESPNow-HelloWorld.ion) program with the Arduino IDE.
  
-  9. Change the server Mac addresses for the targets in the code (**_don't_** just copy the entire mac.txt file) `(Code line : 44 - 45)`
- ```
-  
-       // server esp mac addresses for the targets
-       #ifdef TARGET
-
-       uint8_t GAMESERVER_ap_mac[]   = {0xEE, 0xFA, 0xBC, 0x0C, 0xE6, 0xAF}; 
-       uint8_t GAMESERVER_sta_mac[]  = {0xEC, 0xFA, 0xBC, 0x0C, 0xE6, 0xAF};
-
-       // init sensor val
-       int initVal;
-
-       #endif
+  9. Change the server Mac addresses for the targets in the code (**_don't_** just copy the entire mac.txt file)
+ ``` 
+ 41      // server esp mac addresses for the targets
+ 42      #ifdef TARGET
+ 43
+ 44       uint8_t GAMESERVER_ap_mac[]   = {0xEE, 0xFA, 0xBC, 0x0C, 0xE6, 0xAF}; 
+ 45       uint8_t GAMESERVER_sta_mac[]  = {0xEC, 0xFA, 0xBC, 0x0C, 0xE6, 0xAF};
+ 46
+ 47      // init sensor val
+ 48      int initVal;
+ 49
+ 50      #endif
 ```
  10. Comment out like this: 
  ```
