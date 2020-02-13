@@ -89,6 +89,10 @@ Estimated time: ~ 20 minutes
  
  ___
  
- ###Projects based on this
+ ### Projects based on this
  
+ - [Simple Lasergame](https://github.com/JeroPlay/SimpleLaserGame)
  
+ ### Creater
+ 
+  - [Jerome Albert](https://github.com/JeroPlay)
