@@ -97,4 +97,4 @@ Estimated time: ~ 20 minutes
  
  ### Creater
  
-  - [Jerome Albert](https://github.com/JeroPlay)
+  - [Jerome Albert](https://github.com/JeroPluy)
